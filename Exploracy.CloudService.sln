@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Exploracy.CloudService", "Exploracy.CloudService\Exploracy.CloudService.ccproj", "{0C62CCA8-FD51-46EA-840D-2B4BA0BFD16F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neo4JWorkerRole", "Neo4JWorkerRole\Neo4JWorkerRole.csproj", "{39F24A4A-897B-419C-836E-2762E3CE6BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C62CCA8-FD51-46EA-840D-2B4BA0BFD16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C62CCA8-FD51-46EA-840D-2B4BA0BFD16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C62CCA8-FD51-46EA-840D-2B4BA0BFD16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C62CCA8-FD51-46EA-840D-2B4BA0BFD16F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F24A4A-897B-419C-836E-2762E3CE6BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F24A4A-897B-419C-836E-2762E3CE6BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F24A4A-897B-419C-836E-2762E3CE6BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F24A4A-897B-419C-836E-2762E3CE6BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
