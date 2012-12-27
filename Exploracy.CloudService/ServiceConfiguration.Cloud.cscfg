@@ -3,7 +3,16 @@
   <Role name="Neo4JWorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=kkneo4j;AccountKey=6pG02wbCcqZb1Q0rl++MPbz3BAnQGGL+Y7moUmJYI28mIlP7jYjKuTF9R1aMMXEC1TOtZWPOw2gFex/8pldn+Q==" />
+      <Setting name="Neo4jConnectionString" value="DefaultEndpointsProtocol=https;AccountName=kkneo4j;AccountKey=6pG02wbCcqZb1Q0rl++MPbz3BAnQGGL+Y7moUmJYI28mIlP7jYjKuTF9R1aMMXEC1TOtZWPOw2gFex/8pldn+Q==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="kkurni" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEFj/RAO6l7+XRF8BhdHZXzIwDQYJKoZIhvcNAQEBBQAEggEAkkTJYBII8x+ANJ20FsoYVYldJzDMFA+8+VsMyaxoSxAee/0ZlYan3Rc77OFt8gdoXpjSbSlP1G66bmdcwaGnW6InNU5c/IpnZfbLLrjelUiEursF0uT0vKdPIdf5aA5gpjvB+TIxBrjnGGkF4HkukUXFgnSAOZ9mynRsgZS0y9rWarX3kTpXEroXM1BO8xwGZ+HW0rcGy8ClqQj4d/hFRPvw7VpuRApXyca3VCcjLMU39JZHHoq1+Pbl2WDUutZyT1CrGT+ph5Ag2h1nUV4ztGS8xYFoggsPIqfPsmDAndvz+fJi8gNcZ6/8YjWgVjsl/8s4sEYWBeXz2baw1wp/QzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECHKVOl+NXjaVgBD1p93BO01J10il30Nf8AD3" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2013-12-27T23:59:59.0000000+11:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
     </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="CFB7803AFE2EADC633207E30EDD947345DD8F689" thumbprintAlgorithm="sha1" />
+    </Certificates>
   </Role>
 </ServiceConfiguration>

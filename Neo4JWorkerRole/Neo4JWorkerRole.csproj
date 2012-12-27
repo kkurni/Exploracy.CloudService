@@ -44,8 +44,9 @@
     <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WindowsAzure.Storage.1.7.0.0\lib\net35-full\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
     </Reference>
-    <Reference Include="Neo4j.Server.AzureWorkerHost">
-      <HintPath>..\packages\Neo4j.Server.AzureWorkerHost.1.0.0.37\lib\net40\Neo4j.Server.AzureWorkerHost.dll</HintPath>
+    <Reference Include="Neo4j.Server.AzureWorkerHost, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Neo4j.Server.AzureWorkerHost\AzureWorkerHost\bin\Debug\Neo4j.Server.AzureWorkerHost.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

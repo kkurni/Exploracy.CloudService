@@ -3,12 +3,17 @@
   <WorkerRole name="Neo4JWorkerRole" vmsize="Small">
     <Imports>
       <Import moduleName="Diagnostics" />
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
     </Imports>
     <LocalResources>
-      <LocalStorage name="Neo4jInstall" cleanOnRoleRecycle="true" sizeInMB="500"/>
+      <LocalStorage name="Neo4jInstall" cleanOnRoleRecycle="true" sizeInMB="500" />
     </LocalResources>
     <Endpoints>
-      <InternalEndpoint name="Neo4j" protocol="tcp" />
+      <InternalEndpoint name="neo4j" protocol="tcp" />
     </Endpoints>
+    <ConfigurationSettings>
+      <Setting name="Neo4jConnectionString" />
+    </ConfigurationSettings>
   </WorkerRole>
 </ServiceDefinition>

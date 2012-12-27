@@ -35,7 +35,8 @@ namespace Neo4JWorkerRole
             // For information on handling configuration changes
             // see the MSDN topic at http://go.microsoft.com/fwlink/?LinkId=166357.
 
-            _Server = new NeoServer(CloudStorageAccount.DevelopmentStorageAccount);
+            _Server = new NeoServer(CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("Neo4jConnectionString")));
+            //_Server = new NeoServer(CloudStorageAccount.DevelopmentStorageAccount);
             _Server.DownloadAndInstall();
             _Server.Start();
 
