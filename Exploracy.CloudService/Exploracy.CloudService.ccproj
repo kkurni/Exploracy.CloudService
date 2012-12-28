@@ -37,6 +37,14 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Exploracy.FrontEndWebRole\Exploracy.FrontEndWebRole.csproj">
+      <Name>Exploracy.FrontEndWebRole</Name>
+      <Project>{1675b203-3e90-4e17-adf1-a068c4f58bcb}</Project>
+      <Private>True</Private>
+      <RoleType>Web</RoleType>
+      <RoleName>Exploracy.FrontEndWebRole</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
     <ProjectReference Include="..\Neo4JWorkerRole\Neo4JWorkerRole.csproj">
       <Name>Neo4JWorkerRole</Name>
       <Project>{39f24a4a-897b-419c-836e-2762e3ce6bd3}</Project>
