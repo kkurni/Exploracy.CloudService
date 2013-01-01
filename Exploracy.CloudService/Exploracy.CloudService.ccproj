@@ -12,6 +12,10 @@
     <AssemblyName>Exploracy.CloudService</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
     <Name>Exploracy.CloudService</Name>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,14 +55,14 @@
       <Private>True</Private>
       <RoleType>Worker</RoleType>
       <RoleName>Neo4JWorkerRole</RoleName>
-      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+      <UpdateDiagnosticsConnectionStringOnPublish>False</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Profiles" />
   </ItemGroup>
   <ItemGroup>
-    <PublishProfile Include="Profiles\kkurni-neo4j-workerProduction.azurePubxml" />
+    <PublishProfile Include="Profiles\exploracyProduction.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

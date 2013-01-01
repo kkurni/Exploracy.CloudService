@@ -13,6 +13,10 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <RoleType>Worker</RoleType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,7 +50,7 @@
     </Reference>
     <Reference Include="Neo4j.Server.AzureWorkerHost, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Neo4j.Server.AzureWorkerHost\AzureWorkerHost\bin\Debug\Neo4j.Server.AzureWorkerHost.dll</HintPath>
+      <HintPath>..\libs\Neo4j.Server.AzureWorkerHost.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

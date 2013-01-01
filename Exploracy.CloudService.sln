@@ -10,6 +10,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploracy.FrontEndWebRole.Tests", "Exploracy.FrontEndWebRole.Tests\Exploracy.FrontEndWebRole.Tests.csproj", "{8EEF780E-F8CC-4F3A-8F1D-6CFED2C514BD}"
 EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kkurni.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Exploracy.CloudService\\Exploracy.CloudService.ccproj
+		SccProjectName1 = Exploracy.CloudService
+		SccLocalPath1 = Exploracy.CloudService
+		SccProjectUniqueName2 = Exploracy.FrontEndWebRole\\Exploracy.FrontEndWebRole.csproj
+		SccProjectName2 = Exploracy.FrontEndWebRole
+		SccLocalPath2 = Exploracy.FrontEndWebRole
+		SccProjectUniqueName3 = Neo4JWorkerRole\\Neo4JWorkerRole.csproj
+		SccProjectName3 = Neo4JWorkerRole
+		SccLocalPath3 = Neo4JWorkerRole
+		SccProjectUniqueName4 = Exploracy.FrontEndWebRole.Tests\\Exploracy.FrontEndWebRole.Tests.csproj
+		SccProjectName4 = Exploracy.FrontEndWebRole.Tests
+		SccLocalPath4 = Exploracy.FrontEndWebRole.Tests
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

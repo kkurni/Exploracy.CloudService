@@ -3,7 +3,6 @@
   <Role name="Neo4JWorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=kkneo4j;AccountKey=6pG02wbCcqZb1Q0rl++MPbz3BAnQGGL+Y7moUmJYI28mIlP7jYjKuTF9R1aMMXEC1TOtZWPOw2gFex/8pldn+Q==" />
       <Setting name="Neo4jConnectionString" value="DefaultEndpointsProtocol=https;AccountName=kkneo4j;AccountKey=6pG02wbCcqZb1Q0rl++MPbz3BAnQGGL+Y7moUmJYI28mIlP7jYjKuTF9R1aMMXEC1TOtZWPOw2gFex/8pldn+Q==" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="kkurni" />
